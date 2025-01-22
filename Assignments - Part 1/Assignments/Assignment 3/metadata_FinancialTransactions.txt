@@ -1,0 +1,25 @@
+Dataset
+
+The dataset 'Financial Transactions' containing details of individual transactions, including their amount, date, card type, merchant category, location, device used, customer demographics, and various financial attributes. Additionally, a binary flag labelled "Is Fraudulent" indicates whether the transaction was fraudulent or not.
+
+Attribute Details
+
+Amount(float) 			: The amount of money involved in the transaction.
+Date(datetime) 			: The date and time the transaction occurred.
+Card Type(object) 		: The type of card used for the transaction (Credit, Debit, or Prepaid).
+MCC Category(object) 	: The industry category of the merchant where the transaction took place.
+Location(object) 		: The country or city where the transaction occurred.
+Device(object) 			: The device used for the transaction (Mobile, Desktop, or POS).
+Previous Transactions(int) 			: The number of transactions made with the same card in the past 24 hours.
+Balance Before Transaction(float) 	: The account balance before the transaction took place.
+Time of Day(int) 		: The hour of the day when the transaction occurred.
+Velocity(float) 		: The relative change in account balance compared to the average daily/weekly change.
+Customer Age(int) 		: The age of the customer who made the transaction.
+Customer Income(float) 	: The annual income of the customer who made the transaction.
+Card Limit(float) 		: The credit limit of the card used for the transaction.
+Credit Score(int) 		: The credit score of the customer who made the transaction.
+Merchant Reputation(object) 	: The reputation of the merchant where the transaction took place (Good, Average, or Bad).
+Merchant Location History(int) 	: The number of years the merchant has been operating at its location.
+Spending Patterns(float) 		: The average monthly spending of the customer who made the transaction.
+Online Transactions Frequency(object) : The frequency of online transactions made by the customer (High, Medium, or Low).
+Is Fraudulent(int) 				: Whether the transaction is fraudulent (1) or legitimate (0).

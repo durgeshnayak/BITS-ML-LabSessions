@@ -1,0 +1,26 @@
+Dataset
+
+The dataset 'Defect Datasets' containing defect datasets gathered from real-world open source projects and has been widely used in previous studies for software defect prediction. Additionally, a target attribute labelled "bug" indicates whether the it is having defect or not.
+
+Attribute Details
+
+wmc 		: Weighted methods of class
+dit 		: Depth of inheritance tree
+noc 		: Number of children.
+cbo 	        : Coupling between objects
+rfc 		: Response for class.
+lcom 		: Lack of cohesion in methods.
+ca 		: Couplings of afference
+ce 	        : Couplings of efferent.
+npm 		: Number of public methods.
+lcom3 		: Lack of cohesion in methods
+loc 		: Lines of code.
+dam 	        : Data of access metric.
+moa 		: Measure of aggregation.
+mfa 		: Measure of functional abstraction.
+cam 	        : Cohesion among methods
+ic 	        : Inheritance coupling
+cbm 		: Coupling between methods
+amc             : Average method complexity.
+max_cc 		: Max value of CC (cyclomatic complexity)
+avg_cc          : Average value of CC.
